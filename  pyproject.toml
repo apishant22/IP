@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advanced_image_classifier"
+version = "0.1.0"
+description = "A complex image classifier using various deep learning techniques."
+authors = [{ name = "Apishan Thayananthan", email = "at16g21@soton.ac.uk" }]
+requires-python = ">=3.6"
+
+[project.dependencies]
+torch = "^1.8.1"
+torchvision = "^0.9.1"
+timm = "^0.4.12"
+captum = "^0.4.0"
+pandas = "^1.2.4"
+Pillow = "^8.2.0"
+scikit-learn = "^0.24.2"
+scipy = "^1.6.3"
+seaborn = "^0.11.1"
+matplotlib = "^3.4.2"
+transformers = "^4.5.1"
+numpy = "^1.20.3"
+tqdm = "^4.60.0"
+
+[project.urls]
+homepage = "https://github.com/yourusername/yourproject"
+repository = "https://github.com/yourusername/yourproject"
